@@ -1,0 +1,112 @@
+.intro{
+    display: flex;
+    justify-content:space-between;
+    height: 77vh;
+    margin-top: 6rem;
+    margin-top: 150px;
+   margin-bottom: 150px;
+}
+.intro-left{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 40px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.name>:nth-child(1){
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-family: Gumela;
+}
+.name>:nth-child(2){
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: rgb(92, 178, 239);
+    font-family: Gumela;
+    letter-spacing: 0.1rem;
+
+}
+.name>:nth-child(3){
+    font-family: Gumela;
+}
+.Hireme-button{
+    width: 150px;
+    padding: 8px;
+    font-size: 1.2rem;
+    font-family: Gumela;
+     font-weight:800;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: rgb(92, 178, 239);
+    border: 1px solid  black;
+    box-shadow: 5px 5px 10px rgb(92, 178, 239);
+
+}
+.icons-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    border: 2px solid  rgb(92, 178, 239);
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.slider{
+    width: 200px;
+    height: 100px;
+    border: 1px solid rgb(92, 178, 239);
+    box-shadow: 5px 5px  10px;
+    margin-right: 6.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.skills-icon{
+    width: 40px;
+    height: 40px;
+    box-shadow: 5px 5px 10px grey ;
+    background: transparent;
+}
+.slider span{
+    font-family: Gumela;
+}
+.slider1{
+    animation: slider1animation 10s infinite;
+    
+
+}
+@keyframes slider1animation{
+    
+    50%{
+        transform: translateX(-200px);
+    }
+    
+}
+.slider2{
+    animation: slider2animation 18s infinite;
+    animation-delay: 10s;
+    
+}
+@keyframes slider2animation{
+    50%{
+        transform: translateX(-200px);
+    }
+  
+}
+.slider3{
+    animation: slider3animation 10s infinite;
+}
+@keyframes slider3animation{
+    50%{
+        transform: translateX(-200px);
+    }
+}
+

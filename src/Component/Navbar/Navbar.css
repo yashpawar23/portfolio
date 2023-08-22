@@ -1,0 +1,35 @@
+.Navbar_wrapper{
+    display: flex;
+    justify-content:space-between;
+    height: 10vh;
+    /* background-color: rgb(92, 178, 239); */
+}
+.navbar_name {
+   margin-left: 20px;
+   font-size: 1.8rem;
+   margin-top: 5px;
+   font-weight: 500;
+   color: rgb(92, 178, 239);
+}
+
+.n-list ul{
+    display: flex;
+    margin-top: 20px;
+}
+.n-list ul li{
+    list-style: none;
+    margin-right:40px;
+    font-family: Gumela;
+    
+}
+.contactus-btn{
+    border: 1px solid black;
+    height: 40px;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-right: 40px;
+    width: 120px;
+    background-color:rgb(92, 178, 239) ;
+    box-shadow: 5px 5px 10px rgb(92, 178, 239);
+}

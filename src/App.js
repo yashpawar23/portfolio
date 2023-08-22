@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import WhiteModetxt from './Component/AnimatedText/WhiteModetxt';
+import Experience from './Component/Experience/Experience';
+import Intro from './Component/Introduction/Intro';
+import Navbar from './Component/Navbar/Navbar'
+import Services from './Component/Services/Services';
+import InputForm from './Component/Form/InputForm'
+import Footer from './Component/Footer/Footer';
+import Project from './Component/Projects/Project';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <WhiteModetxt/>
+      <Intro/>
+      <Services/>
+      <Experience/>
+      <Project/>
+      <InputForm/>
+      <Footer/>
     </div>
   );
 }

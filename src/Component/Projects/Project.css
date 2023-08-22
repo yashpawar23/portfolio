@@ -1,0 +1,16 @@
+.slider-img{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px  10px gray;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.portfolio-wrapper h1{
+    font-size: 50px;
+}
+.portfolio-wrapper h1 span{
+    font-size: 50px;
+    color: rgb(92,138,239);
+    font-family: Gumela;
+}
